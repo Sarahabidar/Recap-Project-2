@@ -1,0 +1,22 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main {
+  margin-top: 110px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto 80px auto;
+}
+.submitButton {
+  font-size: var(--fs-400);
+  font-family: var(--ff-primary);
+  margin: 0 auto 2rem auto;
+  background-color: var(--secondary);
+  color: var(--white);
+  border: none;
+  display: block;
+  padding: 1rem;
+}
